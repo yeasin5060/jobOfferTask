@@ -20,25 +20,8 @@ const Sidebar = () => {
           </Link>
         </section>
         <SideLink icon={IoHomeOutline} path="/" title="Home" />
-        <SideLink icon={FaUsers} path="/users" title="Users" />
-        <SideLink
-          icon={GiPerspectiveDiceSixFacesRandom}
-          path="/variations"
-          title="Variation"
-        />
         <SideLink icon={TbCategory2} path="/categories" title="Category" />
-        <SideLink
-          icon={MdOutlineCategory}
-          path="/sub-category"
-          title="Sub Category"
-        />
-        <SideLink icon={CiShop} path="/products" title="Products" />
-        <SideLink
-          icon={MdOutlineInventory2}
-          path="/inventories"
-          title="Inventory"
-        />
-        <SideLink icon={FaCartPlus} path="/carts" title="Cart" />
+        <SideLink icon={CiShop} path="/dashboard/products/create" title="Products" />
     </div>
   );
 };
