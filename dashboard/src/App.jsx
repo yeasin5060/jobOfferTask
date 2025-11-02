@@ -11,6 +11,7 @@ import Category from "./pages.jsx/Category";;
 import Product from "./pages.jsx/Product";
 import MainLayout from "./layOut/MainLayOut";
 import NotFound from "./pages.jsx/NotFound";
+import Order from "./pages.jsx/Order";
 
 //  All Routes
 const router = createBrowserRouter(
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path="/" element={<Home />} />
         <Route path="/categories" element={<Category />} />
         <Route path="/dashboard/products/create" element={<Product />} />
+        <Route path="/dashboard/products/order" element={<Order />} />
       </Route>
       <Route>
         <Route path="*" element={<NotFound />} />

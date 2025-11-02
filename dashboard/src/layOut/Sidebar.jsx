@@ -1,14 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaUsers } from "react-icons/fa";
-import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
-import { FaCartPlus } from "react-icons/fa";
-import { MdOutlineInventory2 } from "react-icons/md";
 import { TbCategory2 } from "react-icons/tb";
-import { MdOutlineCategory } from "react-icons/md";
-import { IoSettingsSharp } from "react-icons/io5";
 import { CiShop } from "react-icons/ci";
 import { IoHomeOutline } from "react-icons/io5";
+import { FaJediOrder } from "react-icons/fa";
 import SideLink from "../component/SideLink";
 
 const Sidebar = () => {
@@ -22,6 +17,7 @@ const Sidebar = () => {
         <SideLink icon={IoHomeOutline} path="/" title="Home" />
         <SideLink icon={TbCategory2} path="/categories" title="Category" />
         <SideLink icon={CiShop} path="/dashboard/products/create" title="Products" />
+        <SideLink icon={FaJediOrder} path="/dashboard/products/order" title="Order" />
     </div>
   );
 };
